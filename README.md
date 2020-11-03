@@ -1,1 +1,25 @@
 # gnome-aralm
+-------[RUS]---------
+Данный скрипт меняет рингтон в будильнике от проекта GNOME
+Как его запустить ?
+Открываете "Терминал" --> script.sh
+Вернуть все обратно --> script-reset.sh
+Устанавливаем все по принципу ок и далее
+ВНИМАНИЕ! Выбирайте только один рингтон, иначе могут случиться конфликты.
+--------------------------------------------------------------------------
+Помощь по управлению
+[ enter ] - ОК, Отмена 1.png
+[ Tab ] - Переключение на кнопки 2.png
+[ Space ] - Делает выбор 3.png
+-------[ENG]---------
+This script changes the alarm ringtone from the GNOME project
+How do I start it?
+Open "Terminal" -> script.sh
+Revert everything back -> script-reset.sh
+We install everything according to the principle of ok and further
+ATTENTION! Choose only one ringtone, otherwise conflicts may occur.
+-------------------------------------------------- ------------------------
+Management Help
+[enter] - OK, Cancel 1.png
+[Tab] - Switch to buttons 2.png
+[Space] - Makes selection 3.png
