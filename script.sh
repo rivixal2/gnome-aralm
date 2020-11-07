@@ -7,6 +7,7 @@ whiptail --title "ВНИМАНИЕ" --msgbox "Все что выполняетс
     done
 } | whiptail --gauge "Подождите ... Идёт подготовка скрипта" 6 60 0
 sudo apt install -f
+sudo apt install sox
 mkdir /home/backup
 sudo cp '/usr/share/sounds/freedesktop/stereo/alarm-clock-elapsed.oga' '/home/backup'
 {
@@ -29,7 +30,9 @@ else
 fi
  
 echo
- 
+ touch Ringtone.viv
+ touch R5109-sox.play
+ touch wim.txt
 echo "Выполнение комманды"
 for word in $DISTROS
 do
@@ -71,5 +74,8 @@ whiptail --title "Готово" --msgbox "Вам осталось всего л�
     for ((i = 0 ; i <= 100 ; i+=20)); do
         sleep 1
         echo $i
+        rm Ringtone.viv
+        rm R5109-sox.play
+        rm wim.txt
     done
 } | whiptail --gauge "Удаление временных файлов" 6 60 0
